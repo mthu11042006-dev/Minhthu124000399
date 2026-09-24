@@ -1,2 +1,9 @@
 .env
 node_modules/
+PORT=5000
+NODE_ENV=development
+MONGODB_URI=mongodb+srv://<db_username>:<db_password>@cluster0.0spmvko.mongodb.net/?appName=Cluster0
+# Cấu hình Chuỗi bí mật JWT & Thời hạn Token
+JWT_SECRET=LhuEcommerceSecretKey2026SuperSecure@!#
+JWT_EXPIRE=30d
+
